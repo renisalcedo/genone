@@ -151,6 +151,7 @@ create_full() {
     create_static
 
     echo "DONE!"
+    printf "\n\n"
     echo -e "bash run.sh to run application."
     printf "\n\n"
     echo -e "\e[32mGo to http://localhost:5000/ to view."
@@ -159,7 +160,6 @@ create_full() {
 # ALL FUNCTION GENERATORS END
 
 # MAIN LOGIC 
-
 help() {
     printf "\e[96mHelp commands:\n\n"
     echo "create_flask_app dirname : Creates full flask application with the given directory name."
