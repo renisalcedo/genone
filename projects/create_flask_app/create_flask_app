@@ -198,4 +198,11 @@ case $1 in
 "help")
     help
     ;;
+*)
+    valid_dir $1
+
+    mkdir $1
+    cd $1
+    create_full
+    ;;
 esac
