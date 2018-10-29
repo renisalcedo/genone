@@ -1,3 +1,1 @@
 # GenOne
-
-# Things we do
